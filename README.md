@@ -11,4 +11,5 @@
 **For Later References:**
 [Follow this link](https://github.com/react-grid-layout/react-draggable)
 
+***The output screenshot given***
 ![image](https://github.com/rohit-kashyap-1/react-draggable-slider/assets/108992334/205bce37-688e-4e23-8177-4d7e5a1ff139)
