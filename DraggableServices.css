@@ -1,0 +1,46 @@
+.draggable-service{
+    overflow-x: auto;
+    padding: 40px 0;
+}
+.draggable-service::-webkit-scrollbar {
+    display: none;
+  }
+.draggable-slider-main{
+    grid-column: full;
+    position: relative;
+    display: grid;
+    width: 100%;
+    cursor: grab;
+  
+}
+
+.draggable-slider-main ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    /* grid-column: standard; */
+    display: flex;
+    align-items: center;
+    gap: var(--gap);
+}
+.draggable-item{
+   
+    position: relative;
+    border: 1px solid #ccc;
+    overflow: hidden;
+    flex: 1 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-2);
+    padding: var(--space-5);
+    inline-size: 100%;
+    max-inline-size: 590px;
+    aspect-ratio: 16/9;
+    color: var(--color-white);
+    background-size: cover;
+    box-shadow: 0 4px 8px rgba(0,0,0,.08), 0 8px 24px rgba(51,55,59,.04), 0 6px 30px rgba(51,55,59,.04);
+    border-radius: 0.5rem;
+}
+.draggable-slider-main ul>*{
+
+}
